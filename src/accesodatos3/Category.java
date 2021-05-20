@@ -11,7 +11,7 @@ import java.util.Set;
  */
 public class Category  implements java.io.Serializable {
 
-
+     private String variable;
      private Byte categoryId;
      private String name;
      private Date lastUpdate;
@@ -59,7 +59,6 @@ public class Category  implements java.io.Serializable {
     public void setFilmCategories(Set filmCategories) {
         this.filmCategories = filmCategories;
     }
-
 
 
 

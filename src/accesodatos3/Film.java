@@ -12,7 +12,7 @@ import java.util.Set;
  */
 public class Film  implements java.io.Serializable {
 
-
+    private String variable;
      private Short filmId;
      private Language languageByLanguageId;
      private Language languageByOriginalLanguageId;

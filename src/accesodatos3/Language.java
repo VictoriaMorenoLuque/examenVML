@@ -11,7 +11,7 @@ import java.util.Set;
  */
 public class Language  implements java.io.Serializable {
 
-
+    private String variable;
      private Byte languageId;
      private String name;
      private Date lastUpdate;
